@@ -257,9 +257,14 @@
       (net 2 GND))
     (pad 3 thru_hole circle (at 4.7 3 90) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model /home/oem/Downloads/dc-power-barrel-2mm-jack-pth-1.snapshot.3/AB2_PB_2MM_JACK_PTH.wrl
+    (model /home/oem/Documents/LoRa-RFM-Bridge/Library/AB2_PB_2MM_JACK_PTH.wrl
       (at (xyz 0 -0.55 0))
       (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
+    (model ../../LoRa-RFM-Bridge/Library/AB2_PB_2MM_JACK_PTH.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
